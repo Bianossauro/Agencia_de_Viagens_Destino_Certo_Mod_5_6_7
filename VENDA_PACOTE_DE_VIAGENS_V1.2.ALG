@@ -2,8 +2,6 @@ algoritmo "venda_pacote_de_viagens_v1.3"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hudson Neves e Silva
 // Descrição   : Sistema de controle Business Intelligence (BI)
-// Autor(a)    : Vanderli Reis
-// Data atual  : 20/06/2025
 
 var
    // Controle de menu
