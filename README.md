@@ -1,5 +1,6 @@
-Análise do Código "Operacoes_e_Logistica"
-Objetivos e Escopo
+# Análise do Código "Operacoes_e_Logistica"
+## Objetivos e Escopo
+
 O código implementa um sistema de gerenciamento para operações logísticas, com foco em três principais funcionalidades:
 
 Transferências: Cadastro e listagem de transferências logísticas
@@ -8,9 +9,9 @@ Escalonamentos: Agendamento de veículos, datas e rotas
 
 Itinerários: Gestão de rotas completas com origem, destino, horário e veículo
 
-O sistema permite cadastrar, listar e gerar relatórios dessas operações através de um menu interativo.
+🖥️ O sistema permite cadastrar, listar e gerar relatórios dessas operações através de um menu interativo.
 
-Estrutura de Dados Usada
+## Estrutura de Dados Usada
 O programa utiliza vetores (arrays) para armazenar os dados:
 
 trfs[1..10]: Armazena as transferências (máx. 10)
@@ -33,7 +34,7 @@ itH[1..10]: Horários dos itinerários
 
 itV[1..10]: Veículos dos itinerários
 
-Regras de Negócio Aplicadas
+## Regras de Negócio Aplicadas
 Limite de cadastros: Máximo de 100 registros para cada tipo (transferências, escalonamentos, itinerários)
 
 Validação de dados: Verifica se existem cadastros antes de listar
@@ -53,7 +54,7 @@ Listagens: Mostram todos os registros cadastrados para cada tipo
 
 Relatórios: Oferece visualização consolidada dos dados
 
-Trechos Importantes do Código Comentados:
+🖥️Trechos Importantes do Código Comentados:
 // Variáveis globais
 var
    trfs: vetor [1..10] de caractere  // Armazena transferências
@@ -107,12 +108,13 @@ para i de 1 ate contT faca
 fimpara
 // ... repete para escalonamentos e itinerários ...
 
-O código segue um padrão consistente para todas as operações, com estruturas similares para cada módulo (transferências, escalonamentos e itinerários), garantando uma experiência uniforme para o usuário.
+🧠 O código segue um padrão consistente para todas as operações, com estruturas similares para cada módulo (transferências, escalonamentos e itinerários), garantando uma experiência uniforme para o usuário.
 
 -----------------------------------------------------------
 
-Análise do Código "Projetos_e_Parceria"
-Objetivos e Escopo
+# Análise do Código "Projetos_e_Parceria"
+## Objetivos e Escopo
+
 O código implementa um sistema de gerenciamento para:
 
 Projetos promocionais: Cadastro de iniciativas de marketing com datas e orçamento
@@ -123,7 +125,7 @@ Ações de marketing: Gestão de campanhas e atividades promocionais
 
 O sistema permite cadastrar, listar e visualizar de forma consolidada todas as informações através de um menu interativo.
 
-Estrutura de Dados Usada
+🧠 Estrutura de Dados Usada
 O programa utiliza vetores (arrays) para armazenar os dados:
 
 Para projetos:
@@ -154,7 +156,7 @@ descAcoes[1..100]: Descrições
 
 dataAcoes[1..100]: Datas de realização
 
-Regras de Negócio Aplicadas
+🧠 Regras de Negócio Aplicadas
 Limite de cadastros: Máximo de 100 registros para cada tipo (projetos, parcerias, ações)
 
 Validação de dados: Verifica se existem cadastros antes de listar
@@ -165,7 +167,7 @@ Consistência de dados: Mantém contadores separados para cada tipo de registro
 
 Navegação intuitiva: Menu único com todas opções disponíveis
 
-Descrição dos Processos
+🖥️ Descrição dos Processos
 Menu Principal: Oferece todas as opções em um único nível
 
 Cadastros: Incluem:
@@ -257,12 +259,12 @@ para i de 1 ate contAcoes faca
    // ... lista ações ...
 fimpara
 
-O código apresenta uma estrutura linear simples, com todos os recursos acessíveis diretamente do menu principal, diferente da versão anterior que tinha submenus hierárquicos. Mantém um padrão consistente de cadastro e listagem para todos os tipos de registros.
+🧠 O código apresenta uma estrutura linear simples, com todos os recursos acessíveis diretamente do menu principal, diferente da versão anterior que tinha submenus hierárquicos. Mantém um padrão consistente de cadastro e listagem para todos os tipos de registros.
 
 ----------------------------------------------------------
 
-Análise do Código "Business_Intelligence"
-Objetivos e Escopo
+# Análise do Código "Business_Intelligence"
+## Objetivos e Escopo
 O código implementa um sistema de Business Intelligence (BI) para controle de:
 
 Vendas individuais: Registro de produtos vendidos, quantidades e valores
@@ -273,7 +275,7 @@ Análise de dados: Geração de relatórios para tomada de decisão
 
 O sistema permite cadastrar, visualizar e analisar dados comerciais através de um menu interativo.
 
-Estrutura de Dados Usada
+💻 Estrutura de Dados Usada
 O programa utiliza vetores (arrays) para armazenar os dados:
 
 Para vendas:
@@ -294,7 +296,7 @@ dataPacote[1..10]: Datas de venda
 
 formaPagamento[1..10]: Métodos de pagamento
 
-Regras de Negócio Aplicadas
+🧠 Regras de Negócio Aplicadas
 Limite de cadastros: Máximo de 10 registros para cada tipo (vendas e pacotes)
 
 Cálculos automáticos: Calcula totais de vendas (quantidade × valor unitário)
@@ -385,7 +387,7 @@ repita
    fimescolha
 ate (subRelatorio = 4)  // Condição de retorno
 
-O código apresenta uma estrutura bem organizada com:
+🤖 O código apresenta uma estrutura bem organizada com:
 
 Separação clara entre vendas individuais e pacotes
 
@@ -406,3 +408,5 @@ Possibilidade de cadastro múltiplo em sequência
 Submenu dedicado para relatórios analíticos
 
 Controle rigoroso dos limites de armazenamento.
+
+📚📚📚---------------------------------------📚📚📚
