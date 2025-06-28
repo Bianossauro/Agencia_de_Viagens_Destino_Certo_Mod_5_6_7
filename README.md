@@ -410,3 +410,14 @@ Submenu dedicado para relatórios analíticos
 Controle rigoroso dos limites de armazenamento.
 
 📚📚📚---------------------------------------📚📚📚
+
+![Linha de Aprendizado](https://img.shields.io/badge/%20Linha%20de%20Aprendizado-FFFF00)
+
+![VisualG](https://img.shields.io/badge/VisualG-FF7F00)
+
+![Lógica de programação com Portugol Joice Barbosa Mendes](https://img.shields.io/badge/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20com%20Portugol%20-%20Joice%20Barbosa%20Mendes-007FFF)
+
+![Equipe Responsável pela Elaboração:](https://img.shields.io/badge/Equipe%20Respons%C3%A1vel%20pela%20Elabora%C3%A7%C3%A3o:-EBC79E)
+![Product Owner](https://img.shields.io/badge/Hudson-Product%20Owner-orange)
+![Scrum](https://img.shields.io/badge/Scrum-Ana-000000)
+![Developers](https://img.shields.io/badge/Developers-Daniel%2C%20Vanderli%2C%20Ivo%2C%20Wiliamemerson%2C%20Larissy-000000)
