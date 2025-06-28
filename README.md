@@ -1,4 +1,4 @@
-# Análise do Código "Operacoes_e_Logistica"
+# Análise do Código "Operacões e Logística"
 ## Objetivos e Escopo
 
 O código implementa um sistema de gerenciamento para operações logísticas, com foco em três principais funcionalidades:
@@ -112,7 +112,7 @@ fimpara
 
 -----------------------------------------------------------
 
-# Análise do Código "Projetos_e_Parceria"
+# Análise do Código "Projetos e Parceria"
 ## Objetivos e Escopo
 
 O código implementa um sistema de gerenciamento para:
@@ -263,7 +263,7 @@ fimpara
 
 ----------------------------------------------------------
 
-# Análise do Código "Business_Intelligence"
+# Análise do Código "Business Intelligence - BI"
 ## Objetivos e Escopo
 O código implementa um sistema de Business Intelligence (BI) para controle de:
 
